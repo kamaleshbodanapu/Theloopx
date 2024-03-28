@@ -1,20 +1,18 @@
-import React from 'react'
+import {NavBar,Hero,Card,Footer} from "./components/MainRooter";
 
-import './App.css'
-
-function App() {
-  return (
-    <div className='PageModule'>
-      <center>
-        <br/><br/><br/><br/>
-        <h1>Site Under Maintance</h1>
-        <p>We had any quries contact below details</p>
-        <h2>mail: Info@theloopx.com </h2> 
-      </center>
-      
-      
+function App (){
+  return(
+    <div>
+    <NavBar/>
+    <Hero/>
+    <Card/>
+    <Footer/>
     </div>
   )
 }
 
 export default App;
+
+
+
+

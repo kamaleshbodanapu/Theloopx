@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.footer{
+    background-color: black;
+}
+.container{
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    margin-left: 770px;
+    font-weight: 500;
+    text-size-adjust: 10vw;
+}
+.cole{
+    color: blue;
+    
+}
+
+.col{
+    color: white;
+}
+.pera{
+    color: white;
+}
+.mail{
+    color: lightskyblue;
+    cursor: pointer;
+}
+.phone{
+    color: blueviolet;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}

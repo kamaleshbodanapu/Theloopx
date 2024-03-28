@@ -1,0 +1,119 @@
+
+body{
+    background-color: white;
+}
+.PageModule{
+    margin-top: 250px;
+
+
+}
+h1{
+    color: black;
+    font-size: 50px;
+    
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+
+h2{
+    color:#8C52FF;
+    cursor: pointer;
+}
+h3{
+    color: aqua;
+}
+
+.card{
+    margin-left: 50px;
+}
+h4{
+    color: #8C52FF;
+    
+}
+button{
+    background-color: silver;
+    color: black;
+    margin: 4px ;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px ;
+    cursor: pointer;
+    
+}
+
+.hero-left {
+    float: left;
+    width: 70%; /* Adjust width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+  .hero-right {
+    float: right;
+    width: 30%; /* Adjust width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    
+    
+    
+  }
+
+  .card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    float: left;
+  }
+  
+  .hero-left, .hero-right {
+    flex: 0;
+    padding: 0px;
+    top: 300px;
+    
+   
+  }
+  
+  .hero-right {
+    background-color: #f9f9f9;
+   
+  }
+  
+  h3, h4 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .default-button {
+    background-color: #007bff;
+  }
+  
+  .custom-button {
+    background-color: #28a745;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .class{
+    margin-right: 50px;
+  }
